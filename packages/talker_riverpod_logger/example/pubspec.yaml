@@ -9,7 +9,11 @@ dependencies:
   dio: ^5.1.1
   freezed_annotation: ^2.0.0
   json_annotation: ^4.6.11
-  riverpod: ^2.5.0
+  riverpod:
+    git:
+      url: https://github.com/rrousselGit/riverpod.git
+      path: packages/riverpod/
+      ref: dev
   talker_riverpod_logger: ^4.6.11
 
 dev_dependencies:

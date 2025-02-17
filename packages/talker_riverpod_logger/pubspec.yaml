@@ -16,7 +16,11 @@ environment:
 
 dependencies:
   talker: ^4.6.11
-  riverpod: ^2.5.0
+  riverpod:
+    git:
+      url: https://github.com/rrousselGit/riverpod.git
+      path: packages/riverpod/
+      ref: dev
   meta: ^1.8.0
 
 dev_dependencies:
